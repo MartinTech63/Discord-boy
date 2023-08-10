@@ -13,11 +13,11 @@ Discord-boy est un bot Discord permettant de jouer à des jeux de Gameboy direct
 
 - Les utilisateurs réagissent au message principal pour faire avancer le jeu. Il est possible de changer "l'objectif actuel" en changeant la description du salon de jeu.
 
-![alt text](https://cdn.discordapp.com/attachments/849667753295347745/874205955196346418/unknown.png)
+![alt text](https://cdn.discordpp.com/attachments/849667753295347745/874205955196346418/unknown.png)
 
 - Quand un joueur réagit, son action est envoyée dans le salon de logs
 
-![alt text](https://cdn.discordapp.com/attachments/849667753295347745/874206021818675240/unknown.png)
+![alt text](https://cdn.discordpp.com/attachments/849667753295347745/874206021818675240/unknown.png)
 
 ## Pré-requis
 

@@ -1,8 +1,8 @@
-# Sblerboy-Open-Source
+# Discord-boy
 
-## _La version open source du bot Discord Sblerboy_
+## _Une version forked du bot Discord Sblerboy_
 
-Sblerboy est un bot Discord permettant de jouer à des jeux de Gameboy directement dans Discord.
+Discord-boy est un bot Discord permettant de jouer à des jeux de Gameboy directement dans Discord.
 
 ## Fonctionnalité
 
@@ -32,13 +32,13 @@ Sblerboy est un bot Discord permettant de jouer à des jeux de Gameboy directeme
 - Cloner le repo
 
 ```sh
-git clone https://github.com/Sblerky/Sblerboy-Open-Source.git
+git clone https://github.com/MartinTech63/Discord-boy.git
 ```
 
 - Installer les libraires
 
 ```sh
-cd Sblerboy-Open-Source
+cd Discord-boy
 pip install -r requirements.txt
 ```
 
@@ -55,7 +55,7 @@ pip install -r requirements.txt
 - Lancer le bot
 
 ```sh
-python3 sblerboy.py
+python3 discord-boy.py
 ```
 
 ## License

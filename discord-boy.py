@@ -136,10 +136,10 @@ bot.remove_command('help')
 
 @bot.command()
 async def help(ctx):
-    embed = discord.Embed(title="Discord-boy", url="https://www.youtube.com/channel/UCLT5UPUWMaeZQznyQb1FsKA/?sub_confirmation=1",
+    embed = discord.Embed(title="Discord-boy", url="https://github.com/MartinTech63/Discord-boy",
                           description="Le meilleur émulateur Gameboy", color=0xeeb840)
-    embed.set_author(name="Discord-boy", url="https://www.youtube.com/channel/UCLT5UPUWMaeZQznyQb1FsKA/?sub_confirmation=1",
-                     icon_url="https://st2.depositphotos.com/25611412/46754/v/600/depositphotos_467548434-stock-illustration-gameboy-flat-illistration-old-game.jpg")
+    embed.set_author(name="Discord-boy", url="https://github.com/MartinTech63/Discord-boy",
+                     icon_url="https://cdn-icons-png.flaticon.com/512/1135/1135231.png")
     embed.set_footer(
         text="Créé par Sblerky(franchement va t'abonner ça vaut le coup)")
     fonctionnement = "Discord-boy implémente un émulateur de Gameboy directement dans discord.  Actuellement, il vous permet de jouer à "Choisir ROM" via des réactions à un message dans <#{main_channel_format}>\n\nLe principe de fonctionnement est simple, vous appuyez sur une réaction et le bot ajoute l'emoji :white_check_mark: au message pour vous dire qu'il a bien pris en compte votre action. Ensuite il va retranscrire cette action dans l'émulateur et mettre à jour le screen du message avec le nouvel état du jeu. Quand le bot enlève l'emoji :white_check_mark: , il est prêt à recevoir une nouvelle action (mais pas avant).\n\nLe but est bien sur de finir le jeu. Vous pouvez suivre l'avancement dans le salon <#{logs_channel_format}>  et vous pouvez discuter du jeu ou faire remonter des bugs dans <#{chat_channel_format}> ".format(
